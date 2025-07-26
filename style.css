@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #fff0f0;
+  padding: 40px 20px;
+}
+.logo {
+  font-size: 2.5rem;
+}
+.highlight {
+  color: orange;
+}
+.banner-img {
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+/* Our Plants Section */
+.plants {
+  padding: 60px 20px;
+  text-align: center;
+}
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.plant-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+.plant-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+.info-text {
+  flex: 1;
+  padding: 20px;
+}
+.info-image {
+  flex: 1;
+  padding: 20px;
+}
+.info-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Deals */
+.deals {
+  padding: 60px 20px;
+  text-align: center;
+}
+.deal-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.deal-cards img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+}
+.footer-banner {
+  padding: 40px 20px;
+  background: url('footer-banner.jpg') no-repeat center;
+  background-size: cover;
+}
+.footer-bottom {
+  background-color: #023e8a;
+  padding: 15px;
+}

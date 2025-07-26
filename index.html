@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flower Market</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">ALWAYS <span class="highlight">FRESH</span> FLOWERS</h1>
-      <img src="ghgyghhgh" alt="Flowers" class="banner-img" />
-    </div>
-  </header>
-
-  <!-- Our Plants -->
-  <section class="plants">
-    <h2>Our Plants</h2>
-    <div class="plant-grid">
-      <!-- Repeat this block for each product -->
-      <div class="plant-card">
-        <img src="flower1.png" alt="Plant" />
-        <h3>Flower</h3>
-        <p>$12.99</p>
+  <!-- Header Section -->
+  <section class="plants-section">
+    <h2><span class="highlight">Our</span> Plants</h2>
+    <p class="subtitle">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop.
+      From classic roses to exotic blooms, we offer a wide variety of fresh.
+    </p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="pictures/sample-flower-image.png" alt="Lily Blossom">
+        <h4>Lily Blossom</h4>
+        <p class="price">20 USD</p>
+        <button class="add-cart">ADD TO CART</button>
       </div>
-      <!-- ... add more products -->
+      <!-- Repeat same card 7 more times -->
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
+      <div class="product-card"><img src="pictures/sample-flower-image.png"><h4>Lily Blossom</h4><p class="price">20 USD</p><button class="add-cart">ADD TO CART</button></div>
     </div>
   </section>
 
-  <!-- Flower & Plants Lover -->
-  <section class="info-section">
-    <div class="info-text">
-      <h2>Flower & Plants Lover</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-    </div>
-    <div class="info-image">
-      <img src="lover-img.png" alt="Lover" />
+  <!-- Deals Section -->
+  <section class="deals-section">
+    <h2><span class="highlight">Latest</span> Deals</h2>
+    <p class="subtitle">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop.
+    </p>
+    <div class="deals-grid">
+      <div class="deal-card small" style="background-image: url('pictures/deal-bloom.png');">
+        <h3>60% Off | Bloom Plant</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="deal-card small" style="background-image: url('pictures/deal-ana.png');">
+        <h3>30% Off | Ana Plant</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="deal-card large" style="background-image: url('pictures/deal-zabo.png');">
+        <h3>25% Off | Zabo Plant</h3>
+        <a href="#">Shop Now</a>
+      </div>
     </div>
   </section>
 
-  <!-- Latest Deals -->
-  <section class="deals">
-    <h2>Latest Deals</h2>
-    <div class="deal-cards">
-      <img src="deal1.jpg" alt="Deal 1" />
-      <img src="deal2.jpg" alt="Deal 2" />
-      <img src="deal3.jpg" alt="Deal 3" />
-    </div>
+  <!-- Newsletter Section -->
+  <section class="newsletter" style="background-image: url('pictures/news-letter-bg.png');">
+    <h2>Join the colorful Bunch</h2>
+    <form>
+      <input type="email" placeholder="Write email">
+      <button type="submit">Subscribe</button>
+    </form>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-banner">
-      <h2>Join the colorful Bunch</h2>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Takapi | All Rights Reserved</p>
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Fauget Flower Shop</h3>
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li>Home</li><li>About Us</li><li>Blog</li><li>Contact Us</li>
+        </ul>
+        <ul>
+          <li>Features</li><li>Pricing</li><li>Privacy Policy</li><li>Help Center</li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>
 </html>
-
